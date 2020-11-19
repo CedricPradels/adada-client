@@ -23,8 +23,8 @@ Goals of the project :
 #### Sprint 0
 - [x] Setup GitHub repository : dev, gitignore
 - [x] Setup Typescript
-- [ ] Setup NextJS
-- [ ] Setup StyledComponent
+- [x] Setup NextJS
+- [x] Setup StyledComponent
 - [ ] Setup StyleLint
 - [ ] Setup Eslint with prettier
 - [ ] Setup package.json
