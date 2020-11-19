@@ -1,30 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Adada - Client
 
-## Getting Started
+Goals of the project : 
+- Provide an interface for adada-server
+- Test NextJS
+- Test StyleLint
+- Test Webpack/Babel
 
-First, run the development server:
+## Stack 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- React 
+- Axios
+- NextJS
+- Styled Components
+- Typescript
+- Eslint/prettier, stylelint
+- Webpack / babel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project management
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Current sprint
 
-## Learn More
+#### Sprint 0
+- [x] Setup GitHub repository : dev, gitignore
+- [ ] Setup Typescript
+- [ ] Setup NextJS
+- [ ] Setup StyledComponent
+- [ ] Setup StyleLint
+- [ ] Setup Eslint with prettier
+- [ ] Setup package.json
+- [ ] Setup UT framework : jest
+- [ ] Setup env variables : backend url
+- [ ] Deploy : Vercel / Netlify ?
 
-To learn more about Next.js, take a look at the following resources:
+### Backlog
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Completed sprints
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Notes & Ideas
