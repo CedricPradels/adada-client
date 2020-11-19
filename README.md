@@ -26,9 +26,10 @@ Goals of the project :
 - [x] Setup NextJS
 - [x] Setup StyledComponent
 - [ ] Setup StyleLint
-- [ ] Setup Eslint with prettier
+- [x] Setup Eslint with prettier
 - [ ] Setup package.json
 - [ ] Setup UT framework : jest
+- [ ] Babel/WebPack (options ssr styledcomp)
 - [ ] Setup env variables : backend url
 - [ ] Deploy : Vercel / Netlify ?
 
