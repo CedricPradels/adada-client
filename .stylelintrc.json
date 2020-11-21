@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components",
+    "stylelint-config-prettier"
+  ],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "order/properties-order": ["width", "height"]
+  }
+}

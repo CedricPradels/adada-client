@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const Test = styled.div`
-  color: red;
-  color: green;
+  width: 100px;
+  height: 10px;
+  color: #111111;
 `;
 
 export default function Home() {

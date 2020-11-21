@@ -35,7 +35,7 @@ Goals of the project :
 - [x] Setup Typescript
 - [x] Setup NextJS
 - [x] Setup StyledComponent
-- [ ] Setup StyleLint
+- [x] Setup StyleLint
 - [x] Setup Eslint with prettier
 - [ ] Setup package.json
 - [ ] Setup UT framework : jest
