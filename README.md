@@ -37,7 +37,7 @@ Goals of the project :
 - [x] Setup StyledComponent
 - [x] Setup StyleLint
 - [x] Setup Eslint with prettier
-- [ ] Setup package.json
+- [x] Setup package.json
 - [ ] Setup UT framework : jest
 - [ ] Babel/WebPack (options ssr styledcomp)
 - [ ] Setup env variables : backend url

@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "npm run lint:ts && num run lint:json",
+    "lint": "npm run lint:ts && npm run lint:json && npm run lint:css",
     "lint:ts": "npx eslint --ext .ts,.tsx . --fix",
     "lint:json": "npx prettier --write './**/*.json'",
     "lint:css": "npx stylelint '**/*.tsx'"
