@@ -1,14 +1,15 @@
 # Adada - Client
 
-Goals of the project : 
+Goals of the project :
+
 - Provide an interface for adada-server
 - Test NextJS
 - Test StyleLint
 - Test Webpack/Babel
 
-## Stack 
+## Stack
 
-- React 
+- React
 - Axios
 - NextJS
 - Styled Components
@@ -16,11 +17,20 @@ Goals of the project :
 - Eslint/prettier, stylelint
 - Webpack / babel
 
+### About linters
+
+- `eslint` use `prettier` as code formatter
+- `eslint` rules who are in conflict with `prettier` where disabled
+- `prettier` check format
+- `eslint` check style
+- `stylelint` check css rules
+
 ## Project management
 
 ### Current sprint
 
 #### Sprint 0
+
 - [x] Setup GitHub repository : dev, gitignore
 - [x] Setup Typescript
 - [x] Setup NextJS
@@ -38,3 +48,4 @@ Goals of the project :
 ### Completed sprints
 
 ## Notes & Ideas
+- IDE linters integration on save: who provide configuration ? Lint report with hooks ?
