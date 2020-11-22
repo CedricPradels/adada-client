@@ -1,30 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Adada - Client
 
-## Getting Started
+Goals of the project :
 
-First, run the development server:
+- Provide an interface for adada-server
+- Test NextJS
+- Test StyleLint
+- Test Webpack/Babel
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React
+- Axios
+- NextJS
+- Styled Components
+- Typescript
+- Eslint/prettier, stylelint
+- Jest, TS-Jest, testing-library
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### About linters
 
-## Learn More
+- `eslint` use `prettier` as code formatter
+- `eslint` rules who are in conflict with `prettier` where disabled
+- `prettier` check format
+- `eslint` check style
+- `stylelint` check css rules
 
-To learn more about Next.js, take a look at the following resources:
+## Project management
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Current sprint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Sprint 0
 
-## Deploy on Vercel
+- [x] Setup GitHub repository : dev, gitignore
+- [x] Setup Typescript
+- [x] Setup NextJS
+- [x] Setup StyledComponent
+- [x] Setup StyleLint
+- [x] Setup Eslint with prettier
+- [x] Setup package.json
+- [x] Setup UT framework : jest
+- [x] Setup env variables : backend url
+- [x] Deploy : Vercel / Netlify ?
+- [x] Create Git precommit : eslint, stylelint and types check
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backlog
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Completed sprints
+
+## Notes & Ideas
+- IDE linters integration on save: who provide configuration ? Lint report with hooks ?
+- Is babel/webpack needed on Next projects ?
