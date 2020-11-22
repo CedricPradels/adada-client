@@ -15,7 +15,7 @@ Goals of the project :
 - Styled Components
 - Typescript
 - Eslint/prettier, stylelint
-- Webpack / babel
+- Jest, TS-Jest, testing-library
 
 ### About linters
 
@@ -38,9 +38,10 @@ Goals of the project :
 - [x] Setup StyleLint
 - [x] Setup Eslint with prettier
 - [x] Setup package.json
-- [ ] Setup UT framework : jest
+- [x] Setup UT framework : jest
 - [x] Setup env variables : backend url
-- [ ] Deploy : Vercel / Netlify ?
+- [x] Deploy : Vercel / Netlify ?
+- [x] Create Git precommit : eslint, stylelint and types check
 
 ### Backlog
 
