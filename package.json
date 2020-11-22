@@ -15,8 +15,11 @@
     "test:watch": "jest --watch"
   },
   "pre-commit": [
-    "lint",
-    "test"
+    "lint:ts",
+    "lint:json",
+    "lint:css",
+    "test",
+    "build"
   ],
   "dependencies": {
     "next": "^10.0.2",
