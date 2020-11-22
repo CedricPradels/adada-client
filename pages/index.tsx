@@ -3,12 +3,12 @@ import styled from 'styled-components';
 const Test = styled.div`
   width: 100px;
   height: 10px;
-  color: #111111;
+  color: red;
 `;
 
 export default function Home() {
   return (
-    <div>
+    <div data-testid="test">
       <Test>Test</Test>
     </div>
   );

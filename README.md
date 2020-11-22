@@ -39,8 +39,7 @@ Goals of the project :
 - [x] Setup Eslint with prettier
 - [x] Setup package.json
 - [ ] Setup UT framework : jest
-- [ ] Babel/WebPack (options ssr styledcomp)
-- [ ] Setup env variables : backend url
+- [x] Setup env variables : backend url
 - [ ] Deploy : Vercel / Netlify ?
 
 ### Backlog
@@ -49,3 +48,4 @@ Goals of the project :
 
 ## Notes & Ideas
 - IDE linters integration on save: who provide configuration ? Lint report with hooks ?
+- Is babel/webpack needed on Next projects ?
