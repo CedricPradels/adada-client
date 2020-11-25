@@ -29,6 +29,19 @@ Goals of the project :
 
 ### Current sprint
 
+#### Sprint 1
+- [ ] Setup UI Library: storybook ?
+- [x] Button component
+- [x] Input component
+- [ ] Search form
+- [ ] Create API Types  
+- [ ] Create Fetch Utils
+- [ ] Setup global stylesheet
+
+### Backlog
+
+### Completed sprints
+
 #### Sprint 0
 
 - [x] Setup GitHub repository : dev, gitignore
@@ -42,10 +55,6 @@ Goals of the project :
 - [x] Setup env variables : backend url
 - [x] Deploy : Vercel / Netlify ?
 - [x] Create Git precommit : eslint, stylelint and types check
-
-### Backlog
-
-### Completed sprints
 
 ## Notes & Ideas
 - IDE linters integration on save: who provide configuration ? Lint report with hooks ?

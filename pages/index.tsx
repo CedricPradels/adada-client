@@ -7,7 +7,7 @@ const Test = styled.div`
   color: red;
 `;
 
-export default function Home(props: { test?: any }) {
+export default function Home() {
   return (
     <div data-testid="test">
       <Test>Test</Test>
