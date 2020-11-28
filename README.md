@@ -59,3 +59,5 @@ Goals of the project :
 ## Notes & Ideas
 - IDE linters integration on save: who provide configuration ? Lint report with hooks ?
 - Is babel/webpack needed on Next projects ?
+- Tets formik2 ? 
+- Add typecoverage

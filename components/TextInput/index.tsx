@@ -1,6 +1,5 @@
 import React, {
   useState,
-  useEffect,
   InputHTMLAttributes,
   LabelHTMLAttributes,
 } from 'react';
@@ -9,41 +8,46 @@ import uniqid from 'uniqid';
 
 type InputProps = InputHTMLAttributes<HTMLInputElement>;
 type LabelProps = LabelHTMLAttributes<HTMLLabelElement>;
-type InputValue = string extends InputProps['value'] ? string : never;
 
 type EmailType = {
   type: 'email';
+  initialValue?: string;
 } & Pick<InputProps, 'maxLength' | 'minLength' | 'pattern' | 'size'>;
 
 type NumberType = {
   type: 'number';
+  initialValue?: number;
 } & Pick<InputProps, 'min' | 'max' | 'step'>;
 
 type PasswordType = {
   type: 'password';
+  initialValue?: string;
 } & Pick<InputProps, 'maxLength' | 'minLength' | 'pattern' | 'size'>;
 
 type SearchType = {
   type: 'search';
+  initialValue?: string;
 } & Pick<InputProps, 'maxLength' | 'minLength' | 'pattern' | 'size'>;
 
 type TelType = {
   type: 'tel';
+  initialValue?: string;
 } & Pick<InputProps, 'maxLength' | 'minLength' | 'pattern' | 'size'>;
 
 type TextType = {
   type: 'text';
+  initialValue?: string;
 } & Pick<InputProps, 'maxLength' | 'minLength' | 'pattern' | 'size'>;
 
 type URLType = {
   type: 'url';
+  initialValue?: string;
 } & Pick<InputProps, 'maxLength' | 'minLength' | 'pattern' | 'size'>;
 
 export type TextInputProps = {
-  initialValue?: InputValue;
   label?: string;
-  onChange?: (value: InputValue) => void;
-} & Pick<InputProps, 'value' | 'placeholder'> &
+  onChange?: (value: string | number) => void;
+} & Pick<InputProps, 'placeholder'> &
   (
     | EmailType
     | NumberType
@@ -66,20 +70,24 @@ export const testIds = {
   label: 'label',
 };
 
-const id: LabelProps['htmlFor'] & InputProps['id'] = uniqid();
-
 export const TextInput = (props: TextInputProps) => {
-  const { label, type, initialValue, onChange, ...inputProps } = props;
+  const { label, initialValue, ...inputProps } = props;
 
-  const [inputValue, setInputValue] = useState<InputValue>(initialValue || '');
+  const [inputValue, setInputValue] = useState<string | number>(
+    initialValue || ''
+  );
 
   const handleChange: InputProps['onChange'] = (e) => {
     setInputValue(e.target.value);
+
+    if (!props.onChange) return;
+    if (props.type === 'number') {
+      return props.onChange(e.target.valueAsNumber);
+    }
+    return props.onChange(e.target.value);
   };
 
-  useEffect(() => {
-    if (onChange) onChange(inputValue);
-  }, [inputValue]);
+  const id: LabelProps['htmlFor'] & InputProps['id'] = uniqid();
 
   return (
     <Container data-testid={testIds.container}>
