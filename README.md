@@ -13,7 +13,7 @@ Goals of the project :
 - Axios
 - NextJS
 - Styled Components
-- Typescript
+- Typescript + type coverage check
 - Eslint/prettier, stylelint
 - Jest, TS-Jest, testing-library
 
@@ -36,6 +36,7 @@ Goals of the project :
 - [x] Search form
 - [x] Create API Types  
 - [x] Create Fetch Utils
+- [ ] Add type coverage
 - [ ] Setup global stylesheet
 
 ### Backlog
