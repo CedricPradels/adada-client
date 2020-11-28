@@ -33,7 +33,7 @@ Goals of the project :
 - [ ] Setup UI Library: storybook ?
 - [x] Button component
 - [x] Input component
-- [ ] Search form
+- [x] Search form
 - [ ] Create API Types  
 - [ ] Create Fetch Utils
 - [ ] Setup global stylesheet
@@ -61,3 +61,4 @@ Goals of the project :
 - Is babel/webpack needed on Next projects ?
 - Tets formik2 ? 
 - Add typecoverage
+- Remove Unit Tests : is Unit Tets usefull ? Test writing time vs debug time ? :/ 
