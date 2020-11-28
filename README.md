@@ -34,8 +34,8 @@ Goals of the project :
 - [x] Button component
 - [x] Input component
 - [x] Search form
-- [ ] Create API Types  
-- [ ] Create Fetch Utils
+- [x] Create API Types  
+- [x] Create Fetch Utils
 - [ ] Setup global stylesheet
 
 ### Backlog
