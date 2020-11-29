@@ -11,7 +11,8 @@
     "lint": "npm run lint:ts && npm run lint:json && npm run lint:css",
     "lint:ts": "npx eslint --ext .ts,.tsx .",
     "lint:json": "npx prettier --check './**/*.json'",
-    "lint:css": "npx stylelint '**/*.tsx'"
+    "lint:css": "npx stylelint '**/*.tsx'",
+    "storybook": "start-storybook -p 6006"
   },
   "pre-commit": [
     "types:coverage",
@@ -31,6 +32,12 @@
     "uniqid": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-actions": "^6.1.8",
+    "@storybook/addon-controls": "^6.1.8",
+    "@storybook/addon-essentials": "^6.1.8",
+    "@storybook/addon-links": "^6.1.8",
+    "@storybook/react": "^6.1.8",
     "@types/axios": "^0.14.0",
     "@types/eslint": "^7.2.5",
     "@types/luxon": "^1.25.0",
@@ -42,6 +49,7 @@
     "@types/uniqid": "^5.2.0",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-standard": "^16.0.2",

@@ -30,14 +30,13 @@ Goals of the project :
 ### Current sprint
 
 #### Sprint 1
-- [ ] Setup UI Library: storybook ?
+- [x] Setup UI Library: storybook ?
 - [x] Button component
 - [x] Input component
 - [x] Search form
 - [x] Create API Types  
 - [x] Create Fetch Utils
-- [ ] Add type coverage
-- [ ] Setup global stylesheet
+- [x] Add type coverage
 
 ### Backlog
 
@@ -63,3 +62,5 @@ Goals of the project :
 - Tets formik2 ? 
 - Add typecoverage
 - Remove Unit Tests : is Unit Tets usefull ? Test writing time vs debug time ? :/ 
+- Setup global stylesheet
+- Add reset css
