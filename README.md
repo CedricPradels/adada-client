@@ -13,7 +13,7 @@ Goals of the project :
 - Axios
 - NextJS
 - Styled Components
-- Typescript
+- Typescript + type coverage check
 - Eslint/prettier, stylelint
 - Jest, TS-Jest, testing-library
 
@@ -29,6 +29,19 @@ Goals of the project :
 
 ### Current sprint
 
+#### Sprint 1
+- [x] Setup UI Library: storybook ?
+- [x] Button component
+- [x] Input component
+- [x] Search form
+- [x] Create API Types  
+- [x] Create Fetch Utils
+- [x] Add type coverage
+
+### Backlog
+
+### Completed sprints
+
 #### Sprint 0
 
 - [x] Setup GitHub repository : dev, gitignore
@@ -43,10 +56,11 @@ Goals of the project :
 - [x] Deploy : Vercel / Netlify ?
 - [x] Create Git precommit : eslint, stylelint and types check
 
-### Backlog
-
-### Completed sprints
-
 ## Notes & Ideas
 - IDE linters integration on save: who provide configuration ? Lint report with hooks ?
 - Is babel/webpack needed on Next projects ?
+- Tets formik2 ? 
+- Add typecoverage
+- Remove Unit Tests : is Unit Tets usefull ? Test writing time vs debug time ? :/ 
+- Setup global stylesheet
+- Add reset css
